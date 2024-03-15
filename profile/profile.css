@@ -147,3 +147,38 @@ iframe{
     letter-spacing: 0.2em;
     transition: 0.3s;
 }
+
+@media only screen and (max-width: 768px) {
+    #headbox {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+    #menu {
+        width: auto;
+        padding-right: 0;
+        margin-top: 20px;
+    }
+    #title {
+        width: auto;
+        padding-left: 0;
+        text-align: center;
+    }
+    #topbox {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+    #bodybox {
+        height: auto;
+    }
+    #bottombox #icons {
+        margin-left: 0;
+    }
+    #declaration {
+        margin-top: 20px;
+    }
+    #back {
+        text-align: center;
+    }
+}
